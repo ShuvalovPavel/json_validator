@@ -6,9 +6,14 @@ import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import java.io.IOException;
 import java.net.URI;
 
+/**
+ * Input point
+ * @author phn
+ */
 public class Main {
-
+    
 static String SERVICE_URI = "http://0.0.0.0:8080";
+
 
     /**
      * Start server

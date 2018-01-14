@@ -13,15 +13,18 @@ import org.json.*;
 @Path("")
 
 /**
- * Validate  json file
- * 
- * @param InputStream stream
- * 
- * @return String
+ * @author phn
  */
 public class Resource {
     @POST
     
+    /**
+     * Validate  json file
+     * 
+     * @param InputStream stream
+     * 
+     * @return String
+     */
     public String checkFile(InputStream stream){
         Integer a;
         BufferedReader br = new BufferedReader(new InputStreamReader(stream));
