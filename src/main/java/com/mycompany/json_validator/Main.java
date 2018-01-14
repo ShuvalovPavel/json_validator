@@ -12,7 +12,7 @@ import java.net.URI;
  */
 public class Main {
     
-static String SERVICE_URI = "http://0.0.0.0:8080";
+static String SERVICE_URI = "http://0.0.0.0:80";
 
 
     /**
