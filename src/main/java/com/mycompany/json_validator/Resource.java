@@ -2,7 +2,6 @@ package com.mycompany.json_validator;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
