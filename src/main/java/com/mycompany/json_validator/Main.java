@@ -8,6 +8,8 @@ import java.net.URI;
 
 public class Main {
 
+static String SERVICE_URI = "http://0.0.0.0:8080";
+
     /**
      * Start server
      * 
@@ -18,6 +20,6 @@ public class Main {
         ResourceConfig rc = new ResourceConfig().packages("com.mycompany.json_validator");
         rc.register(MultiPartFeature.class);
         rc.register(Resource.class);
-        GrizzlyHttpServerFactory.createHttpServer(URI.create("http://0.0.0.0:8080"), rc);
+        GrizzlyHttpServerFactory.createHttpServer(URI.create(SERVICE_URI), rc);
     }
 }
