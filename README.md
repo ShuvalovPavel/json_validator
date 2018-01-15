@@ -11,7 +11,7 @@ sudo docker build -t json_validator https://github.com/ShuvalovPavel/json_valida
 
 To send the file, use the command 
 ```bash
-curl -s --data-binary @f.json localhost:80
+curl --upload-file f.json http://localhost:8080
 ```
 
 Build docker image from Gradle:
@@ -26,5 +26,4 @@ Run container built with Gradle:
 sudo docker run --rm -p 80:80 json_validator
 
 ```
-
 
